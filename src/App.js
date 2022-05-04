@@ -1,12 +1,12 @@
 
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter, Route, Routes} from "react-router-dom";
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Cart from './components/Cart';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header/>
       <div>
         
@@ -18,7 +18,7 @@ function App() {
         <Route path="/cart" element={<Cart/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
