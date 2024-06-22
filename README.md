@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Getting Started with Create React App'
+This is an E-commerce application built using ReactJS.
 
 You need to install the node to run this React App
 
